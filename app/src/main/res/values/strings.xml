@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">NMPSpongebobQuiz</string>
+    <string name="app_name">Spongebob Quiz</string>
     <string name="bg_desc">Bikini Bottom</string>
     <string name="lb_true">TRUE</string>
     <string name="lb_false">FALSE</string>
-    <string name="helloworld">Hello World</string>
+    <string name="lb_start">START</string>
+    <string name="input_nama">Masukkan Nama Anda</string>
+    <string name="lb_highscore">High Score</string>
+    <string name="lb_yourscore">Skor Anda</string>
+    <string name="lb_playagain">PLAY AGAIN</string>
 </resources>

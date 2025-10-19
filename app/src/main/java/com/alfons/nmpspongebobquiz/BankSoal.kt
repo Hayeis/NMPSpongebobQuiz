@@ -6,6 +6,6 @@ object BankSoal {
         Soal("Spongebob tinggal di batu bagaikan udang di balik batu?", false),
         Soal("Karen Adalah istri Plankton", true),
         Soal("MermaidMan pernah menjadi musuh bebuyutan Squidward Tentacles", false),
-        Soal("Sandy merupakan seorang binatang darat yang bernafas dengan udara tapi tinggal di bawah laut", true)
+        Soal("Sandy merupakan seorang tupai binatang darat", true)
     )
 }
