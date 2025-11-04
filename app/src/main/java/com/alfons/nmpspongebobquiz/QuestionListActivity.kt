@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alfons.nmpspongebobquiz.databinding.ActivityQuestionListBinding
+import android.content.Intent
 
 class QuestionListActivity : AppCompatActivity() {
     private lateinit var binding: ActivityQuestionListBinding
@@ -19,5 +20,9 @@ class QuestionListActivity : AppCompatActivity() {
         binding.recQuestion.setHasFixedSize(true)
         binding.recQuestion.adapter = QuestionAdapter()
 
+        binding.fabAdd.setOnClickListener {
+            val intent = Intent(this, NewQuestionActivity::class.java)
+                startActivity(intent)
+        }
     }
 }
